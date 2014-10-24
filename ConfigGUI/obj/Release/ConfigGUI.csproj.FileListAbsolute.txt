@@ -1,0 +1,10 @@
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.Properties.Resources.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.csproj.GenerateResource.Cache
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\bin\Release\ConfigGUI.exe
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\bin\Release\ConfigGUI.pdb
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.exe
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.pdb
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\ConfigGUI.exe
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\ConfigGUI.pdb
+C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.MainForm.resources

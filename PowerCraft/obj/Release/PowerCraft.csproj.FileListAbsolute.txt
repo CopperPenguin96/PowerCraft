@@ -1,0 +1,5 @@
+c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\PowerCraft.dll
+c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\PowerCraft.pdb
+c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\PowerCraft\obj\Release\PowerCraft.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\PowerCraft\obj\Release\PowerCraft.dll
+c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\PowerCraft\obj\Release\PowerCraft.pdb
