@@ -1,4 +1,4 @@
-C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate stub for PowerCraft.Network.HeartbeatLocation: type is a value type.
-C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate stub for PowerCraft.Tools.LogType: type is a value type.
-C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate shim for PowerCraft.Network.HeartbeatLocation: type is an enum.
-C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate shim for PowerCraft.Tools.LogType: type is an enum.
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate stub for PowerCraft.Network.HeartbeatLocation: type is a value type.
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate stub for PowerCraft.Tools.LogType: type is a value type.
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate shim for PowerCraft.Network.HeartbeatLocation: type is an enum.
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\Fakes\PowerCraft.fakes : warning : Cannot generate shim for PowerCraft.Tools.LogType: type is an enum.

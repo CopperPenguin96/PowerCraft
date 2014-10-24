@@ -550,6 +550,9 @@
         <member name="P:PowerCraft.Tools.Fakes.ShimWriter.ConstructorString">
             <summary>Sets the shim of Writer.Writer(String textTobeWritten)</summary>
         </member>
+        <member name="P:PowerCraft.Tools.Fakes.ShimWriter.StaticConstructor">
+            <summary>Sets the shim of Writer.Writer()</summary>
+        </member>
         <member name="P:PowerCraft.Tools.Fakes.ShimWriter.WriteToConsoleLogType">
             <summary>Sets the shim of Writer.WriteToConsole(LogType lType)</summary>
         </member>
@@ -597,6 +600,12 @@
         </member>
         <member name="T:PowerCraft.Tools.Fakes.ShimWriterAdapter.AllInstances">
             <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:PowerCraft.Tools.Fakes.ShimWriterAdapter.AllInstances.AddToString">
+            <summary>Sets the shim of WriterAdapter.AddTo(String text)</summary>
+        </member>
+        <member name="P:PowerCraft.Tools.Fakes.ShimWriterAdapter.AllInstances.Time">
+            <summary>Sets the shim of WriterAdapter.Time()</summary>
         </member>
         <member name="T:PowerCraft.Tools.Fakes.StubJSONReader">
             <summary>Stub type of PowerCraft.Tools.JSONReader</summary>

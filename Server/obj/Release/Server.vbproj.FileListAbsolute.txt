@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.MainForm.resources
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.Resources.resources
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.vbproj.GenerateResource.Cache
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Server.exe
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Server.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Server.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.exe
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.pdb

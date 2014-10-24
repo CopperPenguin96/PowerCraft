@@ -10,3 +10,15 @@ c:\users\alex\documents\visual studio 2013\Projects\PowerCraft\GUI\obj\Release\F
 C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.dll
 C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.pdb
 C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\PowerCraft.Fakes.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\PowerCraft.Fakes.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\PowerCraft.Fakes.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\PowerCraft.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\PowerCraft.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\b\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\o\PowerCraft.Fakes.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\GUI\obj\Release\Fakes\pc\o\PowerCraft.Fakes.pdb

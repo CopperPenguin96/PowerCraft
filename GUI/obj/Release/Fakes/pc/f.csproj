@@ -8,7 +8,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>aa11a4e0-03d3-4846-92a1-13cf93236014</ProjectGuid>
+    <ProjectGuid>ffc89a04-aff5-49f9-8edd-eeac8a9b6886</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,7 +52,7 @@
       <Aliases>mqttf</Aliases>
     </Reference>
     <Reference Include="PowerCraft">
-      <HintPath>C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\PowerCraft.dll</HintPath>
+      <HintPath>C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerCraft.dll</HintPath>
       <Aliases>pc</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
@@ -94,7 +94,7 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:\Users\Alex\documents\visual studio 2013\Projects\PowerCraft\bin\release\Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Newtonsoft.Json.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Runtime.Serialization">

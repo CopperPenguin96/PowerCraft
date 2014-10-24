@@ -1,5 +1,5 @@
-﻿using PowerCraft;
-using PowerCraft.Tools;
+﻿using Server.PowerCraft;
+using Server.PowerCraft.Tools;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,7 +33,7 @@ namespace ConfigGUI
             Config.SetPrivacy(true);
             Config.SetPort(Convert.ToInt32(txtPort.Text));
             Config.SetMaxPlayers(20);
-            Config.SetHeartBeatLocation(PowerCraft.Network.HeartbeatLocation.ClassiCube);
+            Config.SetHeartBeatLocation(Server.PowerCraft.Network.HeartbeatLocation.ClassiCube);
             Config.Save();
         }
 
