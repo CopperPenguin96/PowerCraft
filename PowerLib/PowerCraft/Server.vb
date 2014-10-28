@@ -5,7 +5,7 @@ Imports System.Text
 Namespace PowerCraft
     Public Class Server
 #Region "PlayerList"
-        Private Shared playerList As Player()
+        Private Shared playerList As Player() = {New Player()}
         Public Shared Function GetPlayerList() As Player()
             Return playerList
         End Function

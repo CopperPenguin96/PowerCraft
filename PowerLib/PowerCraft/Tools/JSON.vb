@@ -8,8 +8,7 @@ Namespace PowerCraft.Tools
     Public Class JSONWriter
         Public Shared Sub SaveConfig([cObj] As ConfigObj)
             Dim text As [String] = JsonConvert.SerializeObject([cObj])
-            Dim textWriter As New Writer(text)
-            textWriter.WriteToTextFile("config.json")
+            Writer.WriteToTextFile(text, "config.json")
         End Sub
     End Class
 

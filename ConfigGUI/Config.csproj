@@ -85,9 +85,9 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Server\Server.vbproj">
-      <Project>{51704f97-8cf1-4180-8b8d-a7545808b9e6}</Project>
-      <Name>Server</Name>
+    <ProjectReference Include="..\PowerLib\PowerLib.vbproj">
+      <Project>{01a1dc04-b76f-48dc-acab-e9e50fac154a}</Project>
+      <Name>PowerLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

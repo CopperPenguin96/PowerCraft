@@ -28,7 +28,7 @@ Partial Class MainForm
         Me.rtbLogBox = New System.Windows.Forms.RichTextBox()
         Me.txtConsoleBox = New System.Windows.Forms.TextBox()
         Me.picMainLogo = New System.Windows.Forms.PictureBox()
-        Me.LogTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.LoggerTimer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picMainLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,10 +67,10 @@ Partial Class MainForm
         Me.picMainLogo.TabIndex = 8
         Me.picMainLogo.TabStop = False
         '
-        'LogTimer
+        'LoggerTimer
         '
-        Me.LogTimer.Enabled = True
-        Me.LogTimer.Interval = 1
+        Me.LoggerTimer.Enabled = True
+        Me.LoggerTimer.Interval = 1
         '
         'MainForm
         '
@@ -81,6 +81,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.rtbLogBox)
         Me.Controls.Add(Me.txtConsoleBox)
         Me.Controls.Add(Me.picMainLogo)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MainForm"
         Me.Text = "Server"
         CType(Me.picMainLogo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -92,6 +93,6 @@ Partial Class MainForm
     Private WithEvents rtbLogBox As System.Windows.Forms.RichTextBox
     Private WithEvents txtConsoleBox As System.Windows.Forms.TextBox
     Private WithEvents picMainLogo As System.Windows.Forms.PictureBox
-    Private WithEvents LogTimer As System.Windows.Forms.Timer
+    Friend WithEvents LoggerTimer As System.Windows.Forms.Timer
 
 End Class

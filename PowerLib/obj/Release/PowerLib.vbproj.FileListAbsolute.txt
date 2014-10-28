@@ -1,0 +1,15 @@
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.Resources.resources
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.vbproj.GenerateResource.Cache
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\PowerLib.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\PowerLib.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\PowerLib.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\JetBrains.Annotations.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\bin\Release\JetBrains.Annotations.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.xml

@@ -1,12 +1,10 @@
-﻿Imports PowerCraft.Network
-Imports PowerCraft.Tools
+﻿Imports PowerLib.PowerCraft.Network
+Imports PowerLib.PowerCraft.Tools
 Imports System.Collections.Generic
 Imports System.IO
 Imports System.Linq
 Imports System.Net
 Imports System.Text
-Imports Server.PowerCraft.Network
-Imports Server.PowerCraft.Tools
 
 Namespace PowerCraft
     Public Class Config
@@ -21,7 +19,7 @@ Namespace PowerCraft
 #End Region
 
 #Region "HeartbeatURL"
-        Private Shared hbLocation As HeartbeatLocation
+        Private Shared hbLocation As HeartbeatLocation = HeartbeatLocation.ClassiCube
         Public Shared Function GetHBLocation() As HeartbeatLocation
             Return hbLocation
         End Function
@@ -39,7 +37,7 @@ Namespace PowerCraft
 #End Region
 
 #Region "Privacy"
-        Private Shared Privacy As Boolean = False
+        Private Shared Privacy As Boolean
         Public Shared Function GetPrivacy() As Boolean
             Return Privacy
         End Function

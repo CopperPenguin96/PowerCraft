@@ -1,0 +1,93 @@
+2014-10-27 10:02:46 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 10:02:48 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 58
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 10:04:16 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 10:04:18 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 58
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 17:42:17 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 17:42:19 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 58
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:23:05 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:23:07 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 58
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:23:32 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:23:34 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 59
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:31:47 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:33:22 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 57
+   at PowerLib.PowerCraft.Tools.Logger.Log(String message, Object[] formatArgs) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 44
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:34:28 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:40:55 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:40:57 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 58
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:41:12 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 18:41:14 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 57
+   at PowerLib.PowerCraft.Tools.Logger.Log(String message, Object[] formatArgs) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 44
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 18:46:41 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:29:00 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:29:02 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 71
+   at PowerLib.PowerCraft.Tools.Logger.Log(String message, Object[] formatArgs) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 44
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 20:29:30 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:29:32 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 71
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 20:33:15 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:33:18 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 71
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 20:37:56 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:37:58 > Heartbeat: FormatException:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at PowerLib.PowerCraft.Tools.Logger.LogInternal(String message, Object[] formatArgs, String prefix, Boolean error) in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Tools\Logger.vb:line 71
+   at PowerLib.PowerCraft.Network.Heartbeat.Beat() in C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\PowerCraft\Network\Heartbeat.vb:line 97
+2014-10-27 20:39:56 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:43:16 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 20:45:30 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 21:09:45 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 21:12:46 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 21:12:46 > ---Server Details---If any of this info is incorrect, double check your Config!
+2014-10-27 21:12:49 > Your server is PowerCraft Debug running from IP of 23.117.78.82:60001 with Max Players of 20 on ClassiCube
+2014-10-27 21:13:46 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 21:13:46 > ---Server Details---
+2014-10-27 21:13:46 > If any of this info is incorrect, double check your Config!
+2014-10-27 21:13:48 > Your server is PowerCraft Debug running from IP of 23.117.78.82:60001 with Max Players of 20 on ClassiCube
+2014-10-27 21:30:19 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-27 21:30:19 > ---Server Details---
+2014-10-27 21:30:19 > If any of this info is incorrect, double check your Config!
+2014-10-27 21:30:24 > Your server is PowerCraft Debug running from IP of 23.117.78.82:25565 with Max Players of 20 on ClassiCube
+2014-10-28 08:01:28 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-28 08:01:28 > ---Server Details---
+2014-10-28 08:01:28 > If any of this info is incorrect, double check your Config!
+2014-10-28 08:02:29 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-28 08:02:29 > ---Server Details---
+2014-10-28 08:02:29 > If any of this info is incorrect, double check your Config!
+2014-10-28 08:02:37 > Your server is PowerCraft Debug running from IP of 23.117.78.82:25565 with Max Players of 20 on ClassiCube
+2014-10-28 08:03:51 > Your server is attempting to start based on PowerCraft 1.0.0.0
+2014-10-28 08:03:51 > ---Server Details---
+2014-10-28 08:03:51 > If any of this info is incorrect, double check your Config!
+2014-10-28 08:04:02 > Your server is PowerCraft Debug running from IP of 23.117.78.82:65509 with Max Players of 20 on ClassiCube
+2014-10-28 08:04:02 > Heartbeat: http://www.classicube.net/server/play/0f86b1d8159bf40565a926b8f02a438a/
+2014-10-28 08:04:02 > Heartbeat URL also saved to externalurl.txt file.

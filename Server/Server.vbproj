@@ -29,7 +29,7 @@
     <DefineDebug>false</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\bin\release\</OutputPath>
     <DocumentationFile>Server.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -45,7 +45,13 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JetBrains.Annotations">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\JetBrains\ReSharper\v8.2\Bin\JetBrains.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Visual Studio 2013\Projects\PowerCraft\bin\release\Newtonsoft.Json.dll</HintPath>
@@ -95,14 +101,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PowerCraft\Config.vb" />
-    <Compile Include="PowerCraft\Network\Heartbeat.vb" />
-    <Compile Include="PowerCraft\Network\TitleExtractor.vb" />
-    <Compile Include="PowerCraft\Player.vb" />
-    <Compile Include="PowerCraft\Server.vb" />
-    <Compile Include="PowerCraft\Tools\JSON.vb" />
-    <Compile Include="PowerCraft\Tools\Updater.vb" />
-    <Compile Include="PowerCraft\Tools\Writer.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
@@ -128,6 +126,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PowerLib\PowerLib.vbproj">
+      <Project>{01a1dc04-b76f-48dc-acab-e9e50fac154a}</Project>
+      <Name>PowerLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

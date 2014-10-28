@@ -6,8 +6,7 @@ Imports System.Text
 Imports System.Threading
 Imports System.IO
 Imports System.Net.Cache
-Imports PowerCraft.Tools
-Imports Server.PowerCraft.Tools
+Imports PowerLib.PowerCraft.Tools
 
 ' Part of FemtoCraft | Copyright 2012-2013 Matvei Stefarov <me@matvei.org>
 Namespace PowerCraft.Network
@@ -62,8 +61,14 @@ Namespace PowerCraft.Network
         Private Shared Sub Beat()
             While True
                 Try
-                    Dim requestUri As String = [String].Format("{0}?public={1}&max={2}&users={3}&port={4}&version=7&salt={5}&name={6}", Config.heartbeatURL(), Config.GetPrivacy(), Config.GetMaxPlayers(), Server.GetPlayerList().ToString(), Config.GetPort(), _
-                        uri.EscapeDataString(Salt), uri.EscapeDataString(Config.GetServerName()))
+                    Dim requestUri As String = String.Format("{0}?public={1}&max={2}&users={3}&port={4}&version=7&salt={5}&name={6}",
+                                                               Config.heartbeatURL(), _
+                                                               Config.GetPrivacy(), _
+                                                               Config.GetMaxPlayers(), _
+                                                               Server.GetPlayerList().Length, _
+                                                               Config.GetPort(),
+                                                               uri.EscapeDataString(Salt), _
+                                                               uri.EscapeDataString(Config.GetServerName()))
                     Dim request As HttpWebRequest = DirectCast(WebRequest.Create(requestUri), HttpWebRequest)
                     request.Method = "GET"
                     request.Timeout = CInt(Timeout.TotalMilliseconds)
@@ -78,6 +83,12 @@ Namespace PowerCraft.Network
                         If rs Is Nothing Then
                             Continue While
                         End If
+                        Dim heartbeatURLName As String
+                        If Config.GetHBLocation.Equals(HeartbeatLocation.ClassiCube) Then
+                            heartbeatURLName = "ClassiCube.net"
+                        Else
+                            heartbeatURLName = "Minecraft.net"
+                        End If
                         Using responseReader As New StreamReader(rs)
                             Dim responseText As String = responseReader.ReadToEnd().Trim()
                             Dim newUri As Uri
@@ -85,25 +96,24 @@ Namespace PowerCraft.Network
                                 If newUri <> uri Then
                                     File.WriteAllText(UrlFileName, newUri.ToString())
                                     uri = newUri
-                                    Dim writerArray As Writer() = New Writer() {New Writer([String].Format("Heartbeat: {0}", newUri)), New Writer([String].Format("Heartbeat URL also saved to {0} file.", UrlFileName))}
-                                    For Each w As Writer In writerArray
-                                        w.WriteToConsole(LogType.Normal)
-                                    Next
+                                    Logger.Log([String].Format("Heartbeat: {0}", newUri))
+                                    Logger.Log([String].Format("Heartbeat URL also saved to {0} file.", UrlFileName))
                                 End If
                             Else
-                                Dim w As New Writer([String].Format("Heartbeat: Minecraft.net replied with: {0}", responseText))
-                                w.WriteToConsole(LogType.Warning)
+                                Try
+                                    Logger.Log([String].Format("Heartbeat: " & heartbeatURLName & " replied with: {0}", responseText))
+                                Catch ex As FormatException
+                                    Logger.Log("Heartbeat: " & heartbeatURLName & " replied with: " & responseText)
+                                End Try
                             End If
                         End Using
                     End Using
 
                     Thread.Sleep(Delay)
+                Catch ex2 As FormatException
+
                 Catch ex As Exception
-                    If Not IsShown Then
-                        Dim w As New Writer([String].Format("Heartbeat: {0}: {1}", ex.[GetType]().Name, ex.Message))
-                        w.WriteToConsole(LogType.Serious)
-                        IsShown = True
-                    End If
+                    Logger.Log([String].Format("Heartbeat: {0}: {1}", ex.[GetType]().Name, Exceptions.GetExcString(ex)))
                 End Try
             End While
         End Sub

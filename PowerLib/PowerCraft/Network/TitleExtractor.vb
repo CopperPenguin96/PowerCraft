@@ -6,6 +6,7 @@ Imports System.Net
 Imports System.Text
 Imports System.Text.RegularExpressions
 Imports Server.PowerCraft.Tools
+Imports PowerLib.PowerCraft.Tools
 
 Namespace PowerCraft.Network
     Public Class TitleExtractor
@@ -40,8 +41,7 @@ Namespace PowerCraft.Network
                 End Using
                 Return title
             Catch e As Exception
-                Dim writer As New Writer("Failed to catch page title for " + url)
-                writer.WriteToConsole(LogType.Warning)
+                Logger.Log("Failed to catch page title for " + url)
                 Return "Error"
             End Try
         End Function

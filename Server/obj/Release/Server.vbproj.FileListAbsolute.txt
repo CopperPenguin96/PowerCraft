@@ -10,3 +10,9 @@ C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\Newtonsoft.Json.xml
 C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.exe
 C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.xml
 C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\obj\Release\Server.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\JetBrains.Annotations.dll
+C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\JetBrains.Annotations.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.exe
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.xml
