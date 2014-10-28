@@ -1,5 +1,5 @@
 TODO:
--Heartbeat to ClassiCube or Minecraft.net or ClassiCube.net
+-Heartbeat to ClassiCube or Minecraft.net or ClassiCube.net DONE!
 -A socket listening for incoming connections
 -A way to receive packets from client(s) when the arive and a way to respond with other packets
 -A "map" (set of blocks), a way to save/load it, and send it to the client (gzipped)
