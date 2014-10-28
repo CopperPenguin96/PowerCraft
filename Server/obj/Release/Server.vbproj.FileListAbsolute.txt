@@ -16,3 +16,4 @@ C:\Users\Alex\Documents\GitHub\PowerCraft\Server\bin\Release\JetBrains.Annotatio
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.exe
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.pdb
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\Server.exe.config

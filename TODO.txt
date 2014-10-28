@@ -1,7 +1,9 @@
 TODO:
--Heartbeat to ClassiCube or Minecraft.net or ClassiCube.net DONE!
--A socket listening for incoming connections
--A way to receive packets from client(s) when the arive and a way to respond with other packets
+-Heartbeat to ClassiCube or Minecraft.net DONE!
+-A socket listening for incoming connections DONE!
+-Setup PlayerDB
+-Setup Ranks
+-A way to receive packets from client(s) when the arrive and a way to respond with other packets
 -A "map" (set of blocks), a way to save/load it, and send it to the client (gzipped)
 -A way for players to change the level (by setting blocks), and to broadcast these changes to other players
 -A way to broadcast chat messages from one player to all others

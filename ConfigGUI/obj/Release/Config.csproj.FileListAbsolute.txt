@@ -6,3 +6,4 @@ C:\Users\Alex\Documents\GitHub\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.Proper
 C:\Users\Alex\Documents\GitHub\PowerCraft\ConfigGUI\obj\Release\Config.csproj.GenerateResource.Cache
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.exe
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.pdb
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.exe.config

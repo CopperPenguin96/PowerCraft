@@ -13,3 +13,4 @@ C:\Users\Alex\Documents\GitHub\PowerCraft\PowerLib\obj\Release\PowerLib.pdb
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.dll
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.pdb
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.xml
+C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\PowerLib.dll.config
