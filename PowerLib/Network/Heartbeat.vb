@@ -61,14 +61,15 @@ Namespace PowerCraft.Network
         Private Shared Sub Beat()
             While True
                 Try
-                    Dim requestUri As String = String.Format("{0}?public={1}&max={2}&users={3}&port={4}&version=7&salt={5}&name={6}",
+                    Dim requestUri As String = String.Format("{0}?public={1}&max={2}&users={3}&port={4}&version=7&salt={5}&name={6}&software={7}",
                                                                Config.heartbeatURL(), _
                                                                Config.GetPrivacy(), _
                                                                Config.GetMaxPlayers(), _
                                                                Server.GetPlayerList().Length, _
                                                                Config.GetPort(),
                                                                uri.EscapeDataString(Salt), _
-                                                               uri.EscapeDataString(Config.GetServerName()))
+                                                               uri.EscapeDataString(Config.GetServerName()), _
+                                                               Updater.VersionString())
                     Dim request As HttpWebRequest = DirectCast(WebRequest.Create(requestUri), HttpWebRequest)
                     request.Method = "GET"
                     request.Timeout = CInt(Timeout.TotalMilliseconds)

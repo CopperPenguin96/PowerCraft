@@ -1,5 +1,5 @@
 ﻿Imports System.Runtime.Serialization
-
+Imports System.Drawing
 Namespace PlayerDB
     Public Class Rank
         Public Overrides Function ToString() As String
@@ -19,6 +19,7 @@ Namespace PlayerDB
         Public GriefDetectionTimeInSecs As Integer
         Public DrawLimit As Boolean
         Public DrawLimitAmount As Integer
+        Public RankColor As Color
         'TODO - Create permissions
     End Class
     Public Class InvalidRankException

@@ -160,11 +160,14 @@ Namespace PowerCraft
         End Sub
 
         Public Shared Sub Save()
-
+            Dim rObj As New RankObj()
+            rObj.ArrayOfRanks = GetRanks()
+            JSONWriter.SaveRankConfig(rObj) ' Saves our ranks to config file
         End Sub
 
         Public Shared Sub Load()
-
+            Dim MyRObj As RankObj = JSONReader.rObj()
+            SetRanks(MyRObj.ArrayOfRanks) ' Ranks are loaded finally. Congratulations!
         End Sub
     End Class
 End Namespace

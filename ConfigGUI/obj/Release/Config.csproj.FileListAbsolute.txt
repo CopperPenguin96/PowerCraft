@@ -7,3 +7,4 @@ C:\Users\Alex\Documents\GitHub\PowerCraft\ConfigGUI\obj\Release\Config.csproj.Ge
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.exe
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.pdb
 C:\Users\Alex\Documents\GitHub\PowerCraft\bin\release\ConfigGUI.exe.config
+C:\Users\Alex\Documents\GitHub\PowerCraft\ConfigGUI\obj\Release\ConfigGUI.ColorPicker.resources
