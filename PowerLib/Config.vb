@@ -85,6 +85,16 @@ Namespace PowerCraft
         End Function
 #End Region
 
+#Region "MOTD"
+        Private Shared MOTD As String
+        Public Shared Function GetMOTD() As String
+            Return MOTD
+        End Function
+        Public Shared Sub SetMOTD(cMotd As String)
+            MOTD = cMotd
+        End Sub
+#End Region
+
 #Region "DefaultRank"
         Private Shared DefaultRank As Rank
         Public Shared Function GetDefaultRank() As Rank
@@ -103,7 +113,8 @@ Namespace PowerCraft
                 .Privacy = GetPrivacy(), _
                 .MaxPlayers = GetMaxPlayers(), _
                 .Port = GetPort(), _
-                .IP = GetIP() _
+                .IP = GetIP(), _
+                .MOTD = GetMOTD()
             }
             JSONWriter.SaveConfig([cObj])
         End Sub
@@ -122,6 +133,7 @@ Namespace PowerCraft
             SetPort([cObj].Port)
             SetPrivacy([cObj].Privacy)
             SetServerName([cObj].ServerName)
+            SetMOTD([cObj].MOTD)
         End Sub
 #End Region
 
@@ -136,6 +148,7 @@ Namespace PowerCraft
             x.MaxPlayers = 20
             x.Port = 25565
             x.DefaultRankID = 0
+            x.MOTD = "Welcome to the server!"
         End Function
         Public ServerName As [String]
         Public HeartBeatURL As [String]
@@ -144,6 +157,7 @@ Namespace PowerCraft
         Public Port As Integer
         Public IP As [String]
         Public DefaultRankID As Integer
+        Public MOTD As String
     End Class
 
     Public Class RankObj

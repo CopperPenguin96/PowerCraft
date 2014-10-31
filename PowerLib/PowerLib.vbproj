@@ -124,8 +124,12 @@
     <Compile Include="Server.vb" />
     <Compile Include="Tools\JSON.vb" />
     <Compile Include="Tools\Logger.vb" />
+    <Compile Include="Tools\Packets\Packet.vb" />
+    <Compile Include="Tools\Packets\PacketReader.vb" />
+    <Compile Include="Tools\Packets\PacketWriter.vb" />
     <Compile Include="Tools\Updater.vb" />
     <Compile Include="Tools\Writer.vb" />
+    <Compile Include="Worlds\Block.vb" />
     <Compile Include="Worlds\Map.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -149,9 +153,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tools\Forms\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.94.0\build\net45\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

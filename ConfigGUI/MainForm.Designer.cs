@@ -199,7 +199,6 @@
             // 
             // txtMOTD
             // 
-            this.txtMOTD.Enabled = false;
             this.txtMOTD.Location = new System.Drawing.Point(86, 33);
             this.txtMOTD.Name = "txtMOTD";
             this.txtMOTD.Size = new System.Drawing.Size(227, 20);
