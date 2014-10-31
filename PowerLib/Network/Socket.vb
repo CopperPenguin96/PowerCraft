@@ -1,5 +1,6 @@
 ﻿Imports System.Net.Sockets
 Imports System.Net
+Imports PowerLib.PlayerDB
 
 Namespace PowerCraft.Network
     Public Class ReceiveSocket
@@ -15,6 +16,8 @@ Namespace PowerCraft.Network
             listenSocket.Accept()
 
             'Get PlayerDB info based on listenSocket information
+            Dim dBase As New Database
+            'dBase.CreatePlayer(PlayerNameStr, IPOfPlayer) ' Modify to matchy listenSocket info
         End Sub
     End Class
 End Namespace

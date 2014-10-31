@@ -28,16 +28,23 @@ namespace ConfigGUI
         }
         void Save()
         {
-            Config.SetServerName(txtServerName.Text);
-            Config.SetPrivacy(true);
-            Config.SetPort(Convert.ToInt32(txtPort.Text));
-            Config.SetMaxPlayers(20);
-            Config.SetHeartBeatLocation(PowerLib.PowerCraft.Network.HeartbeatLocation.ClassiCube);
-            //Config.SetDefaultRank();
-            Config.Save();
-            //Saving the ranks
-            RankConfig.SetRanks(rankList);
-            RankConfig.Save();
+            try
+            {
+                Config.SetServerName(txtServerName.Text);
+                Config.SetPrivacy(true);
+                Config.SetPort(Convert.ToInt32(txtPort.Text));
+                Config.SetMaxPlayers(20);
+                Config.SetHeartBeatLocation(PowerLib.PowerCraft.Network.HeartbeatLocation.ClassiCube);
+                //Config.SetDefaultRank();
+                Config.Save();
+                //Saving the ranks
+                RankConfig.SetRanks(rankList);
+                RankConfig.Save();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Could not save config. Please check all fields!");
+            }
         }
 
         void UseDefaults()
@@ -375,12 +382,35 @@ namespace ConfigGUI
             {
                 Rank[] oldArray = rankList;
                 Rank selectedRank = GetRank(SelectedItem);
+                Rank prevRank = GetRank(SelectedItem - 1);
                 selectedRank.ID -= 1;
-                oldArray[SelectedItem] = selectedRank;
-                Rank otherRank = GetRank(SelectedItem - 1);
+                prevRank.ID += 1;
+                oldArray[SelectedItem] = prevRank;
+                oldArray[SelectedItem - 1] = selectedRank;
+                rankList = oldArray;
+                ResetRankList();
+            }
+        }
+
+        private void btnDown_Click(object sender, EventArgs e)
+        {
+            Rank[] oldArrayRanks = rankList;
+            int SelectedItem = listOfRanks.SelectedIndex;
+            if (SelectedItem < 0)
+            {
+                MessageBox.Show("You have to select a rank before moving one!");
+            }
+            else
+            {
+                Rank[] oldArray = rankList;
+                Rank selectedRank = GetRank(SelectedItem);
+                Rank prevRank = GetRank(SelectedItem + 1);
                 selectedRank.ID += 1;
-                oldArray[SelectedItem - 1] = otherRank;
-                OrganizeByID(oldArray);
+                prevRank.ID -= 1;
+                oldArray[SelectedItem] = prevRank;
+                oldArray[SelectedItem + 1] = selectedRank;
+                rankList = oldArray;
+                ResetRankList();
             }
         }
     }

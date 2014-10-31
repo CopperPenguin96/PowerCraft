@@ -90,6 +90,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\BasicCommands\Template.vb" />
+    <Compile Include="Commands\Category.vb" />
+    <Compile Include="Commands\Command.vb" />
+    <Compile Include="Commands\Permission.vb" />
     <Compile Include="Exceptions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

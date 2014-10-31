@@ -1,12 +1,13 @@
 ﻿Option Infer On
 
 Imports System.Collections.Generic
-Imports System.Linq
 Imports System.Data
 Imports System.Data.SQLite
 Imports System.IO
+Imports System.Linq
+Imports PowerLib.PowerCraft
 
-Namespace PowerCraft.PlayerDB
+Namespace PlayerDB
     ''' <summary>
     ''' Class for interaction with a SQLite Database holding critical user information. Some of this information (Such as IP) is used for logging purposes,
     ''' and may be used for looking up bans.

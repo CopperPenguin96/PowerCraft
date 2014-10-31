@@ -54,6 +54,8 @@
             this.tabCPE = new System.Windows.Forms.TabPage();
             this.lblComingSoonCPE = new System.Windows.Forms.Label();
             this.tabRanks = new System.Windows.Forms.TabPage();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.btnUp = new System.Windows.Forms.Button();
             this.gRankOptions = new System.Windows.Forms.GroupBox();
             this.btnSaveRank = new System.Windows.Forms.Button();
             this.lAntiGrief1 = new System.Windows.Forms.Label();
@@ -85,8 +87,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
-            this.btnDown = new System.Windows.Forms.Button();
             this.ConfigTabs.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.gboIRC.SuspendLayout();
@@ -350,6 +350,26 @@
             this.tabRanks.TabIndex = 2;
             this.tabRanks.Text = "Ranks";
             this.tabRanks.UseVisualStyleBackColor = true;
+            // 
+            // btnDown
+            // 
+            this.btnDown.Location = new System.Drawing.Point(218, 251);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(66, 23);
+            this.btnDown.TabIndex = 14;
+            this.btnDown.Text = "Down";
+            this.btnDown.UseVisualStyleBackColor = true;
+            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnUp
+            // 
+            this.btnUp.Location = new System.Drawing.Point(146, 251);
+            this.btnUp.Name = "btnUp";
+            this.btnUp.Size = new System.Drawing.Size(66, 23);
+            this.btnUp.TabIndex = 13;
+            this.btnUp.Text = "Up";
+            this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // gRankOptions
             // 
@@ -682,25 +702,6 @@
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnUp
-            // 
-            this.btnUp.Location = new System.Drawing.Point(146, 251);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(66, 23);
-            this.btnUp.TabIndex = 13;
-            this.btnUp.Text = "Up";
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
-            // 
-            // btnDown
-            // 
-            this.btnDown.Location = new System.Drawing.Point(218, 251);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(66, 23);
-            this.btnDown.TabIndex = 14;
-            this.btnDown.Text = "Down";
-            this.btnDown.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
