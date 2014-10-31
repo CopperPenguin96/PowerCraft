@@ -73,6 +73,8 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.94.1\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Remoting" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -117,12 +119,14 @@
     <Compile Include="Network\TitleExtractor.vb" />
     <Compile Include="PlayerDB\Database.vb" />
     <Compile Include="PlayerDB\Player.vb" />
+    <Compile Include="PlayerDB\Position.vb" />
     <Compile Include="PlayerDB\Rank.vb" />
     <Compile Include="Server.vb" />
     <Compile Include="Tools\JSON.vb" />
     <Compile Include="Tools\Logger.vb" />
     <Compile Include="Tools\Updater.vb" />
     <Compile Include="Tools\Writer.vb" />
+    <Compile Include="Worlds\Map.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

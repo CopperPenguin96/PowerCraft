@@ -1,4 +1,4 @@
-﻿Imports PowerLib.PowerCraft.PlayerDB
+﻿Imports PowerLib.PlayerDB
 
 Namespace Commands
     Public Class Command

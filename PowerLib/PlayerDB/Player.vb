@@ -1,9 +1,17 @@
-﻿Imports System.IO
-Imports PowerLib.PlayerDB
+﻿Imports System.Collections.Generic
+Imports System.IO
+Imports System.IO.Compression
+Imports System.Linq
+Imports System.Net
+Imports System.Net.Sockets
+Imports System.Security.Cryptography
+Imports System.Text
+Imports System.Text.RegularExpressions
+Imports System.Threading
+Imports JetBrains.Annotations
 
-Namespace PowerCraft.PlayerDB
-    Public Class Player
-        Public rank As Rank
+Namespace PlayerDB
+    Partial Public Class Player
+
     End Class
-
 End Namespace

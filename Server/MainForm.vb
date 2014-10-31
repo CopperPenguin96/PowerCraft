@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports System.Net.Configuration
 Imports PowerLib.PlayerDB
 Imports PowerLib.PowerCraft
 Imports PowerLib.PowerCraft.Network
@@ -17,6 +18,8 @@ Public Class MainForm
         Logger.Log("Your server is " & Config.GetServerName() & " running from IP of " & Config.GetIP() & ":" & Config.GetPort() & _
                    " with Max Players of " & Config.GetMaxPlayers() & " on " & Config.GetHBLocation.ToString())
         Heartbeat.Start()
+        ReceiveSocket.ListenForConnections()
+
     End Sub
     Dim LastPost As Integer = -1
     Private Sub LoggerTimer_Tick(sender As Object, e As EventArgs) Handles LoggerTimer.Tick

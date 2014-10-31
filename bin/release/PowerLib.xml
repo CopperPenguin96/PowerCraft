@@ -19,31 +19,31 @@ PowerLib
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.CreatePlayer(System.String,System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.CreatePlayer(System.String,System.String)">
 	<summary>
  Creates a new entry in the PlayerDB for a player.
  </summary>
 	<param name="name"></param>
 	<param name="ip"></param>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.ContainsPlayer(System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.ContainsPlayer(System.String)">
 	<summary>
  Checks to see if a player by this name already exists for this server.
  </summary>
 	<param name="name"></param>
 	<returns></returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.GetPlayerName(System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.GetPlayerName(System.String)">
 	<summary>
  Returns the Case-correct version of a player's name.
  </summary>
 	<param name="name"></param>
 	<returns></returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.GetPlayerName(System.Int32)">
+</member><member name="M:PowerLib.PlayerDB.Database.GetPlayerName(System.Int32)">
 	<summary>
  Get a Player's Name from their index in the table.
  </summary>
 	<param name="id"></param>
 	<returns></returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.GetDatabaseInt(System.String,System.String,System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.GetDatabaseInt(System.String,System.String,System.String)">
 	<summary>
  Retreives an integer value from the database.
  </summary>
@@ -51,7 +51,7 @@ PowerLib
 	<param name="field"></param>
 	<param name="name"></param>
 	<returns></returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.GetDatabaseString(System.String,System.String,System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.GetDatabaseString(System.String,System.String,System.String)">
 	<summary>
  Retreives a string value from the database.
  </summary>
@@ -59,7 +59,7 @@ PowerLib
 	<param name="field"></param>
 	<param name="name"></param>
 	<returns></returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.Boolean)">
+</member><member name="M:PowerLib.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.Boolean)">
 	<summary>
  Sets a value on the player in the database.
  </summary>
@@ -67,7 +67,7 @@ PowerLib
 	<param name="field"></param>
 	<param name="value"></param>
 	<param name="name"></param>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.Int32)">
+</member><member name="M:PowerLib.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.Int32)">
 	<summary>
  Sets a value on the player in the database.
  </summary>
@@ -75,7 +75,7 @@ PowerLib
 	<param name="field"></param>
 	<param name="value"></param>
 	<param name="name"></param>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.SetDatabase(System.String,System.String,System.String,System.String)">
 	<summary>
  Sets a value on the player in the database.
  </summary>
@@ -83,26 +83,26 @@ PowerLib
 	<param name="field"></param>
 	<param name="value"></param>
 	<param name="name"></param>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.Delete(System.String,System.String)">
+</member><member name="M:PowerLib.PlayerDB.Database.Delete(System.String,System.String)">
 	<summary>
      Allows the programmer to easily delete rows from the DB.
  </summary>
 	<param name="tableName">The table from which to delete.</param>
 	<param name="where">The where clause for the delete.</param>
 	<returns>A boolean true or false to signify success or failure.</returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.Insert(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+</member><member name="M:PowerLib.PlayerDB.Database.Insert(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
 	<summary>
      Allows the programmer to easily insert into the DB
  </summary>
 	<param name="tableName">The table into which we insert the data.</param>
 	<param name="data">A dictionary containing the column names and data for the insert.</param>
 	<returns>A boolean true or false to signify success or failure.</returns>
-</member><member name="M:PowerLib.PowerCraft.PlayerDB.Database.ClearDB">
+</member><member name="M:PowerLib.PlayerDB.Database.ClearDB">
 	<summary>
      Allows the programmer to easily delete all data from the DB.
  </summary>
 	<returns>A boolean true or false to signify success or failure.</returns>
-</member><member name="T:PowerLib.PowerCraft.PlayerDB.Database">
+</member><member name="T:PowerLib.PlayerDB.Database">
 	<summary>
  Class for interaction with a SQLite Database holding critical user information. Some of this information (Such as IP) is used for logging purposes,
  and may be used for looking up bans.
